@@ -1,6 +1,7 @@
 import {products} from "./mockData";
 
 export const mockFetch = async (...args) => {
+    if(!args[0].includes('page=')) throw new Error('API requires query parameter of page, please see README for more information');
     const page = args[0].split('page=')[1]
 
     const pages = new Map([
@@ -15,6 +16,6 @@ export const mockFetch = async (...args) => {
     return {
         ok: true,
         status: 200,
-        json: () => ({products: Promise.resolve(pages.get(page)), count: products.length})
+        json: () => Promise.resolve({products: pages.get(page), count: products.length})
     };
-}
+};

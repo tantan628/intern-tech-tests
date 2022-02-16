@@ -10,12 +10,14 @@ function YourSolution() {
     <div className="App">
       <table id="products">
         <thead>
+        <tr>
           <th>Id</th>
           <th>Brand</th>
           <th>Name</th>
           <th>Quantity Sold</th>
           <th>Sold Price</th>
           <th>Cost To Business</th>
+        </tr>
         </thead>
           <tbody>
           </tbody>
