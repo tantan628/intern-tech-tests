@@ -1,6 +1,8 @@
 # Matchesfashion React Coding Challenge
 
 ## Running the application
+You will need Node installed, with a minimum version of 12 to be able to run the project, for information on 
+how to install Node, please visit <https://nodejs.org/en/>
 
 Firstly, run `npm install` to install the dependencies required for this project.
 
