@@ -45,7 +45,7 @@ product: {
 
 ### Example Implementation
 
-To see an example of the implementation, go to the following url: <https://stunning-eureka-1d016a47.pages.github.io/>
+To see an example of the implementation, go to the following url: <https://matchesfashion.github.io/bt-react-tech-test/>
 
 ## Your Task
 
