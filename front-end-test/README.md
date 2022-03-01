@@ -35,9 +35,9 @@ The task is to:
 Bonus task:
 4. Allow the user to sort by price low to high
 
-*ADD EXAMPLE HERE*
+[EXAMPLE HERE](https://github.com/matchesfashion/intern-tech-tests/blob/master/front-end-test/list-example.png)
 
-An example product looks as follows:
+Th product JSON looks as follows:
 
 ```json
 {
