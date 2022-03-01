@@ -4,10 +4,11 @@ Welcome to the MATCHESFASHION Tech internship technical tests!
 
 ## Choosing a test
 
-You can choose which tech test to complete. Please only complete one. The options are:
+You can choose which tech test to complete. *Please only complete one*. The options are:
 
 - JavaScript/React
 - Python/Data
+- Java
 
 ## Instructions
 
