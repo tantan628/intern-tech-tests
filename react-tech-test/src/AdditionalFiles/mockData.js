@@ -66,7 +66,7 @@ export const products = [{
     brand: "Alexander McQueen",
     costToBusiness: 145.25,
     id: 8,
-    name: "hushed heels",
+    name: "small heels",
 
     quantitySold: 76,
     soldPrice: 554.25
@@ -346,7 +346,7 @@ export const products = [{
     brand: "Chloe",
     costToBusiness: 155.63,
     id: 43,
-    name: "knotty ring",
+    name: "gold ring",
 
     quantitySold: 53,
     soldPrice: 335.4
@@ -370,7 +370,7 @@ export const products = [{
     brand: "Alexander McQueen",
     costToBusiness: 1.36,
     id: 46,
-    name: "puffy ring",
+    name: "topaz ring",
 
     quantitySold: 90,
     soldPrice: 659.61
