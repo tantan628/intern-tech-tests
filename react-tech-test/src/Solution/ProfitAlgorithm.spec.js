@@ -5,7 +5,15 @@ import {products} from "../AdditionalFiles/mockData";
 
 // To run the test, call "npm run test" in the terminal.
 
-const calculateProfit = () => {}
+const calculateProfit = ({ quantitySold, costToBusiness, soldPrice }) => {
+  let tax = 0;
+  const profitPerItem = soldPrice - costToBusiness;
+  if(quantitySold > 10) {
+    tax = (quantitySold - 10) * profitPerItem * 0.08;
+  } 
+  const output = (quantitySold * profitPerItem) - tax;
+  return `£${output.toFixed(2)}`
+}
 
 describe('Tax Calculation', () => {
   it('calculates the correct amount of tax when product is under tax threshold', () => {
